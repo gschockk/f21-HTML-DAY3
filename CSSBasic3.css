@@ -30,7 +30,7 @@ For #inlineItalic, within the article, we can use the following:
     4. Font color white: #ffffff
 
     */
-
+ 
 h1 {
   color: #a9a9a9;
   font-size: 40px;
@@ -45,7 +45,7 @@ h2 {
 
 h3 {
   color: #383838;
-  font-size: 18px;
+  font-size: 10px;
   font: Arial;
 }
 p {

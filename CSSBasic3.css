@@ -1,0 +1,62 @@
+/* 
+
+H1 will be the main #articletitle with the following characteristics:
+    1. Font Arial
+    2. Size: 40px
+    3. Color dark gray: #a9a9a9
+
+H2 will be the #author name with the following characteristics:
+    1. Font Tahoma
+    2. Size: 25px
+    3. Color darker gray: #282828
+
+H3 will be #introduction to the article a brief text on top
+    1. Font: Arial
+    2. Size: 18px
+    3. Color lighter gray: #383838
+
+P will be the #articletext for the article
+    1. Font: Tahoma
+    2. Size: 12px
+    3. Color: #000000
+
+For the background of the #completepage:
+    1. Color Cream: #fffff0
+
+For #inlineItalic, within the article, we can use the following:
+    1. font type ITALIC 
+    2. size: 12px
+    3. background black: #000000
+    4. Font color white: #ffffff
+
+    */
+
+h1 {
+  color: #a9a9a9;
+  font-size: 40px;
+  font: Arial;
+}
+
+h2 {
+  color: #282828;
+  font-size: 25px;
+  font: Tahoma;
+}
+
+h3 {
+  color: #383838;
+  font-size: 18px;
+  font: Arial;
+}
+p {
+  color: #000;
+  font-size: 12px;
+  font: Tahoma;
+}
+
+.inlineitalic {
+  font: italic tahoma;
+  font-size: 12px;
+  background-color: rgb(0, 0, 0);
+  color: black;
+}

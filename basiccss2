@@ -1,0 +1,10 @@
+div {
+    border: 10px;
+    margin: 5px;
+    text-align: center;
+}
+#first .ja {
+    font-size:xx-large;
+    font-style: italic;
+    font-family: fantasy;
+}

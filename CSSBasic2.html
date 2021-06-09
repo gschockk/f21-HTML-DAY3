@@ -1,0 +1,94 @@
+<?DOCTYPE htlm>
+
+<html lang="en">
+  <head>
+    <meta name="description" content="Create a table containing your three favorite images, songs and videos on the internet (that are safe for work ;) ). Use best practices when using images, audio and video tags.">
+    <meta name="author" content="Ignacio Uribe">
+    <meta charset="utf-8" />
+    <title>
+      Basic - Exercise 1: Create an HTML document, including a link to an external CSS file in the <head> section. Within the body, recreate this DOM tree structure.
+    </title>
+    <img
+      src="images/1999.jpg"
+      alt="1999 Web Design Services"
+      width="20%"
+      height="10%"
+    />
+    <style>
+     
+   #third #fourth  {
+  display:none;
+} 
+     body {background-color: powderblue;}
+      div   {
+        border-style: solid;
+        border-radius: 25px;      
+      }
+      p    {
+        color: red;
+      }
+      #third > p {
+   display:none;
+}
+h1 {
+  display:none;
+} 
+ #second {
+  display:none;
+} 
+
+
+      </style>
+  </head>
+
+  <body>
+    <h1>CSS3 | Basic</h1>
+    <h2>WarmUp Questions</h2>
+    <p>
+      <ul>Discuss with your partner how the DOM is created and displayed on your screen.</ul>
+      <ul>What are the best CSS creation practices?</ul>    
+      <ul>What is specificity and how can you use it to select the elements you want?</ul>    
+      <ul>What types of CSS selectors exist, can you name examples?</ul>    
+      <ul>How can we apply CSS code to a HTML page?</ul>
+
+    </p>
+    <div class="left" id="third">
+      <br>
+      <p> Here we go again with yet another practice exercise, this time for CSS. This is a paragrpah within the first This is a paragraph within the second div class="left" id="third" </p>
+      <form>
+        First name:<br>
+        <input type="text" name="firstname" placeholder="First name"><br>
+        Last name:<br>
+        <input type="text" name="lastname" placeholder="Last name"><br>
+        </form>
+     <div class="left" id="third">
+      <br>
+      <p> This is a paragraph within the second div class="left" id="third"</p>
+      <span>
+        <h3>this in an H3 title within a Span</h3>
+        <p>I like writing text within span and P tags</p>
+      </span>
+    </div>
+  <div class="left" id="fourth">
+    <h1>This is an H1 Title within div class="left" id="fourth"</h1>
+  </div>  
+  </div>
+
+  <div class="right" id="second">
+    <div class="right" id="sixth">
+      <img
+      src="images/1999.jpg"
+      alt="1999 Web Design Services"
+      width="20%"
+      height="10%"
+    />
+    </div>
+    <div class="right" id="fifth">
+    <p>this is a pragrpah within div class="right" id="fifth" </p>
+    </div>
+
+  </div>
+
+
+    </body>
+    </html>
